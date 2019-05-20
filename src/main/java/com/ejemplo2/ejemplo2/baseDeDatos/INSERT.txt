@@ -1,0 +1,67 @@
+INSERT INTO Parents VALUES(default,'Masculino','Daniel','Lorenzo','Rosales','plostds');
+INSERT INTO Parents VALUES(default,'Femenino','Ana','Coco','Acosta','plostds');
+INSERT INTO Parents VALUES(default,'Masculino','Renzo','Patrick','Porot','plostds');
+INSERT INTO Parents VALUES(default,'Femenino','Rosa','Ana','Poemape','plostds');
+INSERT INTO Parents VALUES(default,'Masculino','Pedro','Pablo','Alvarez','plostds');
+INSERT INTO Parents VALUES(default,'Femenino','Rafaela','Sofia','Sanchez','plostds');
+INSERT INTO Parents VALUES(default,'Masculino','Jose','Danielo','Nutiller','plostds');
+INSERT INTO Parents VALUES(default,'Femenino','Dona','Pink','Lopez','plostds');
+INSERT INTO Parents VALUES(default,'Masculino','Pedro','Pablo','Mendoza','plostds');
+INSERT INTO Parents VALUES(default,'Femenino','Daniela','Alexia','Rios','plostds');
+
+
+
+INSERT INTO  Families VALUES (default,'Los Choches',1);
+INSERT INTO  Families VALUES (default,'Los Pitufos',2);
+INSERT INTO  Families VALUES (default,'Los Casas',3);
+INSERT INTO  Families VALUES (default,'Los Perez',4);
+INSERT INTO  Families VALUES (default,'Los Lopez',5);
+INSERT INTO  Families VALUES (default,'Los Sanchez',6);
+INSERT INTO  Families VALUES (default,'Los Lokos',7);
+INSERT INTO  Families VALUES (default,'Los SocioPet',8);
+INSERT INTO  Families VALUES (default,'Los Mojarras',9);
+INSERT INTO  Families VALUES (default,'Los Dulces',1);
+
+
+INSERT INTO  Students  VALUES (default,'09/04/2018','Jose','Masculino','Lopez','Danilo','otros');
+INSERT INTO  Students  VALUES (default,'19/04/2018','Predro','Masculino','Lopez','Mario','otros');
+INSERT INTO  Students  VALUES (default,'29/04/2018','Julio','Masculino','Lopez','Alberto','otros');
+INSERT INTO  Students  VALUES (default,'09/04/2018','Jose','Masculino','Lopez','Danilo','otros');
+INSERT INTO  Students  VALUES (default,'09/05/2018','Esteban','Masculino','Lopez','Pedro','otros');
+INSERT INTO  Students  VALUES (default,'09/06/2018','Mario','Masculino','Lopez','Jaime','otros');
+INSERT INTO  Students  VALUES (default,'09/08/2018','Ana','Femenino','Lopez','Isabella','otros');
+INSERT INTO  Students  VALUES (default,'09/07/2018','Rosa','Femenino','Lopez','Sofia','otros');
+INSERT INTO  Students  VALUES (default,'09/09/2018','Alexandra','Femenino','Melissa','Danilo','otros');
+INSERT INTO  Students  VALUES (default,'09/10/2018','Lupe','Femenino','Lopez','Elizabet','otros');
+
+
+
+INSERT INTO  family_members VALUES (default,'Estudiante',1,1,1);
+INSERT INTO  family_members VALUES (default,'Estudiante',1,2,1);
+INSERT INTO  family_members VALUES (default,'Estudiante',2,3,1);
+INSERT INTO  family_members VALUES (default,'Estudiante',3,4,2);
+INSERT INTO  family_members VALUES (default,'Estudiante',4,5,3);
+INSERT INTO  family_members VALUES (default,'Estudiante',4,5,4);
+INSERT INTO  family_members VALUES (default,'Estudiante',1,6,5);
+INSERT INTO  family_members VALUES (default,'Estudiante',3,7,6);
+INSERT INTO  family_members VALUES (default,'Estudiante',2,8,7);
+INSERT INTO  family_members VALUES (default,'Estudiante',1,9,8);
+
+
+
+
+INSERT INTO Student_Parents VALUES (1,2);
+INSERT INTO Student_Parents VALUES (10,3);
+INSERT INTO Student_Parents VALUES (9,4);
+INSERT INTO Student_Parents VALUES (8,5);
+INSERT INTO Student_Parents VALUES (7,6);
+INSERT INTO Student_Parents VALUES (6,7);
+INSERT INTO Student_Parents VALUES (5,8);
+INSERT INTO Student_Parents VALUES (4,9);
+INSERT INTO Student_Parents VALUES (3,10);
+INSERT INTO Student_Parents VALUES (2,2);
+INSERT INTO Student_Parents VALUES (1,2);
+INSERT INTO Student_Parents VALUES (1,2);
+
+
+

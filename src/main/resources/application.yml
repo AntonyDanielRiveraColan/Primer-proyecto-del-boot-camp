@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: PROYECTO 1
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 123
+    url: jdbc:postgresql://localhost/prueba1
+    username: postgres
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
+    show-sql: 'false'
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:9999/eureka
+  instance:
+    hostname: localhost
+server:
+  port: 8080
